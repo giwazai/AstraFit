@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    margin: 0;
+}
+
+body,
+html {
+    min-height: 1000vh;
+    overflow: hidden;
+}
+
+.HeadSection {
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.HeadVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: none;
+    z-index: -1;
+}
+
+
+.HeadContent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 0px 10px;
+}
+
+
+.HeadLogo {
+    max-width: 7%;
+    min-height: 7%;
+    /* position: relative;
+    top: 0em;
+    left: 1em; */
+}
+
+
+.HeadLogoText {
+    font-family: oswald;
+    /* position: relative;
+    bottom: 2.4em;
+    left: 2.4em; */
+    bottom: 0.55em;
+    position: relative;
+    font-size: 4.5vw;
+}
+
+.AboutNav {
+    text-decoration: none;
+    font-family: oswald;
+    font-weight: lighter;
+    color: black;
+    padding: 1.1em;
+    margin-left: 6em;
+    font-size: 2.1vw;
+}
+
+.BenefitsNav {
+    text-decoration: none;
+    font-family: oswald;
+    font-weight: lighter;
+    color: black;
+    padding: 1.1em;
+    font-size: 2.1vw;
+
+}
+
+.PricingNav {
+    text-decoration: none;
+    font-family: oswald;
+    font-weight: lighter;
+    color: black;
+    padding: 1.1em;
+    font-size: 2.1vw;
+}
+
+.MessageNav {
+    text-decoration: none;
+    font-family: oswald;
+    font-weight: lighter;
+    color: black;
+    padding: 0.45em;
+    font-size: 3.5vw;
+    position: relative;
+    left: 2em;
+}
